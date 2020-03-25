@@ -16,7 +16,7 @@ class DeliveryItemsController < ApplicationController
   # POST /delivery_items
   def create
     @delivery_item = DeliveryItem.new(delivery_item_params)
-
+    @delivery_item.delivery_id = Delivery.first.id
     if @delivery_item.save
       render json: @delivery_item, status: :created, location: @delivery_item
     else

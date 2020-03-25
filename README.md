@@ -1,24 +1,8 @@
-# README
+## Import du projet et lancement 
+ 
+- ``` git clone https://github.com/musait/techtest.git ```
+- ``` bundle install ```
+- ``` rails db:create db:migrate ```
+- ``` rails server ``` 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Vous pouvez ensuite utiliser la page HTML suivante : https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6e11bb4b-9c14-4970-b303-f4049dedec39/stockoss_test.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45MEM3TANI%2F20200325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200325T163235Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJGMEQCIEf%2FLqjbm4aJlIxnj4FnJ%2FhpmFuXJe6izAQS7O34L3yLAiA%2B5ol%2Fx1QnSURyv2PGkXbvCAAk46wR9t8jc7Rau67eJSq0Awh0EAAaDDI3NDU2NzE0OTM3MCIM56Sn0venC2lBtqvqKpEDxJTWmqvnMBdF5VGzdkpjqR8ST5kaDDhqtN50lfJZSyYAflWPRevdpwZDo7lBzNEXBxb%2BnJkTxNiAoyxB2fZwIEbBzsE6lnoWfvCjakPxjRqFvpXNDO5PCYj07AaNA7ZgaPyL87ONtF4r3G4KGSGtvl06OlSPbbTKfWtfLbrS%2FG5eYVGn4hXtAoLgxPodIo0wFE%2Bil42sk%2FnU4A9xTEDEhOMZ3Sph60il9u2tsOOEtSXNX0Wd90pc9oj%2FlJm07fA9dr%2Fq5W7VMsAtzOGkiTOHdPp8iELX9rae1plj%2BgaffWVvsmWN67YBTA4PFdxGykJI2N6X9th0yzpvefjPaCX%2FH1o3Y4k9XCzLoO%2FtMNCzTtHAu1DWT7fQbu44G19osZR1ic8Ig3nvMDdr3tTlTX3sQaqHCXtI67zmzHPrKAFCXFq0kh42nHE1WilNywMN2lUAc0lmR5Y7fNfQFfT%2FghkG9ntzq%2FedOFj9DUuJyBjzypqR8svI2xNRQZuyH7mhwzTFDyA86HXy8kUJRJYkpqvbW70wsPXs8wU67AERGXIjgWe8R6k%2FmXD%2BwPTH%2FEDVS7AccUoxHqP7nV%2Bvmz%2BO5SYrFNswHEogcf62%2BrTYpqtaw7cqFumDQTUJ8yr2Tijh8JE8rA9YsoMrwEOSnI8%2Fy11BD0C%2Bld8YrdWXlewP6r1HA0AqCfu49ucIc0cLEUKRsN3RcoR6USIhG6zzJa62yEeJ8FDfFIy1%2BEDSpASSp4n6tZS2DhclKGD5O6BBKs6P%2Ffmp%2FODxoEGOMKbj478cB%2BhEoji2s2H83SP5b547PQmbku5MrSJZCuUlEp3sR0Xns1aLQxHEcM5H39n0uyX4ydYy2DIaVjeUUQ%3D%3D&X-Amz-Signature=d2f91e46da34cd6acb47713b48f75dd2edb2d3fad06ee548c10cd0b3e4492c7e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22stockoss_test.html%22

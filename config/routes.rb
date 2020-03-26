@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :deliveries
   get '/deliveries/:id/items', to: 'deliveries#delivery_item'
+  get '/deliveries/:id/order_picker', to: 'deliveries#order_picker'
   resources :items
   resources :order_picker,only: [:index] do
     resources :deliveries, only: [:show]

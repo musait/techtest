@@ -1,5 +1,5 @@
 class DeliveriesController < ApplicationController
-  before_action :set_delivery, only: [:show, :update, :destroy,:delivery_item]
+  before_action :set_delivery, only: [:show, :update, :destroy,:delivery_item,:order_picker]
 
   # GET /deliveries
   def index
@@ -39,6 +39,11 @@ class DeliveriesController < ApplicationController
   def delivery_item
     @items = @delivery.items
     render json: @items
+  end
+
+  def order_picker
+    @place = @delivery.items.order(place: :asc).pluck(:place)
+    render json: @place
   end
 
   private

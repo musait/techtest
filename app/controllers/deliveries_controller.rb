@@ -1,10 +1,9 @@
 class DeliveriesController < ApplicationController
-  before_action :set_delivery, only: [:show, :update, :destroy]
+  before_action :set_delivery, only: [:show, :update, :destroy,:delivery_item]
 
   # GET /deliveries
   def index
     @deliveries = Delivery.all
-
     render json: @deliveries
   end
 
@@ -16,7 +15,6 @@ class DeliveriesController < ApplicationController
   # POST /deliveries
   def create
     @delivery = Delivery.new(delivery_params)
-
     if @delivery.save
       render json: @delivery, status: :created, location: @delivery
     else
@@ -36,6 +34,11 @@ class DeliveriesController < ApplicationController
   # DELETE /deliveries/1
   def destroy
     @delivery.destroy
+  end
+
+  def delivery_item
+    @items = @delivery.items
+    render json: @items
   end
 
   private
